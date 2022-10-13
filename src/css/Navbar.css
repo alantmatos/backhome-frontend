@@ -1,0 +1,134 @@
+/* NAVBAR */
+
+.navbar_container {
+    background-color: #dde0e5;
+    border: 1px solid black;
+    height: 279px;
+    width: 100vw;
+    display: flex;
+}
+
+.user-brand{
+    display: flex;    
+}
+
+
+
+
+.nav_ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    top: 0;
+
+
+}
+
+.title_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+}
+
+.navbar_img {
+    height: 150px;
+    width: 150px;
+}
+
+
+
+.title {
+    font-size: 70px;
+    font-family: 'Rubik Distressed', cursive;
+    font-weight: 400;
+}
+
+/* .navbar_header {
+    display: flex;
+    align-items: center;
+    width: 30%;
+} */
+
+/* .welcome_msg {
+    margin-bottom: 20px;
+    font-family: cursive;
+    margin-left: 2px;
+} */
+
+/* .button-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+} */
+
+.nav_buttons {
+    text-decoration: none;
+    margin: 10px;
+    color: #000000;
+}
+
+.user_buttons {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 4px 4px;
+    text-decoration: none;
+    margin: 3px;
+    width: 80px;
+    height: 20px;
+}
+
+.user_btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+/* 
+.user_container {
+    display: block;
+    margin-top: 5px;
+    margin-left: 8px;
+} */
+
+.user_card {
+    height: 280px;
+    width: 250px;
+    background-color: #909eb1;
+    border-right: 1px solid black;
+}
+
+.img_size {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.user_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.user_info {
+    width: 250px;
+    margin: 5px;
+}
+
+
+.nav_btn{
+    background-color: #909eb1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

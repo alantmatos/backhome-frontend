@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+
+
+body {
+    margin: 0;
+}
+
+
+/* Login */
+
+.login_container {
+    display: flex;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_form {
+    height: 50%;
+    width: 50%;
+}
+
+.login_container input {
+    margin: 10px;
+    border: none;
+    border-bottom: 3px solid black;
+}
+
+.submit {
+    background-color: #000000;
+    color: #EEEEEE;
+}
+
+/* CREATE AN ACCOUNT */
+
+.sign_up_container {
+    display: flex;
+    position: relative;
+    height: 65vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    font-size: larger;
+    height: 50%;
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+.sign_up_container input {
+    margin: 10px;
+    border: none;
+    border-bottom: 3px solid black;
+}
+
+.form submit {
+
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+}
+
+
+/* ADD A PET */
+
+.pet_card_buttons {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+}
+
+
+
+.Add_pet_container {
+    display: flex;
+    position: relative;
+    height: 35vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Add_pet_container input {
+    margin: 10px;
+    border: none;
+    border-bottom: 3px solid black;
+}
+
+.pet_submit {
+
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+}
+
+
+
+/* PET EDIT FORM */
+.edit_pet_container {
+    z-index: 10;
+    background-color: rgba(128, 128, 128, 0.399);
+    border-style: solid;
+    width: 50vw;
+    height: 50vh;
+
+}
+
+
+
+
+
+/* EDIT PROFILE */
+
+.edit_profile_container {
+    display: flex;
+    position: relative;
+    height: 35vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.edit_profile_container input {
+    margin: 10px;
+    border: none;
+    border-bottom: 3px solid black;
+}
+
+.edit_submit {
+
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+/* HOME PAGE */
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.home_buttons {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    height: 20px;
+    width: 150px;
+}
+
+.text {
+    font-family: 'Times New Roman', Times, serif;
+    height: 200px;
+    width: 550px;
+    font-size: 25px;
+    font-weight: lighter;
+
+}
+
+.text p {
+    margin-top: 20px;
+}
+
+/* About */
+.about{
+    width: 500px;
+    height: 300px;
+}
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* USER PAGE  */
+
+/* .hero_container{
+    width: 100%;
+    }
+    
+
+    
+ 
+ 
+    
+    .user_info{
+    
+    } */
+
+
+
+
+
+
+/* Dog containter */
+
+.dog_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 54vh;
+
+}
+
+.dog_header {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+
+.dog_card {
+    height: 320px;
+    width: 250px;
+    border: 1px solid black;
+    margin: 5px;
+    margin-right: 0;
+    background-color: #dde0e5;
+
+
+}
+
+
+.dog_img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.button_container {
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+
+
+.pet_card_buttons {
+    background-color: #4CAF50;
+    width: 80px;
+    height: 25px;
+}
+
+/* FOUND A DOG
+
+*/
+
+
+.dog_profile_image {
+    width: 100PX;
+    height: 100PX;
+    border-radius: 50%;
+}
+
+
+.found_dog_container {
+    display: flex;
+}
+
+.foundapet_form {
+    height: 80px;
+    width: 250px;
+    border-style: solid;
+    align-content: center;
+
+}
+
+.foundapet_form input {
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+}
+
+.foundapet_btn {
+    background-color: #4CAF50;
+    color: #EEEEEE;
+    border-style: none;
+    height: 25px;
+    margin-left: 80px;
+}
+
+.found_dog_card {
+
+    height: 300px;
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    z-index: 10;
+}
+
+.found_dog_header {
+    display: flex;
+}
+
+.found_dog_header h1 {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.found_dog_card button {
+    background-color: #4CAF50;
+    color: #EEEEEE;
+    border-style: none;
+    width: auto;
+    height: 30px;
+    margin-left: 50px;
+}
+
+.tag_form{
+    width: 250px;
+    height: 150px;
+    align-content: center;
+}
+.safe_tag_form{
+    width: 250px;
+    height: 150px;
+}
+
+.owner_profile_image{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border-style: solid;
+}
+
+
+.display_top_container{
+    justify-content: center;
+
+}
+
+
+.thank_you_msg{
+font-family: monospace;
+font-size: 20px;
+}
+.display{
+    align-items: center;
+    align-content: center;
+}
+
+.display_owner_dog{
+    display: flex;
+}
+
+
+
+.display_container{
+    justify-content: center;
+    
+
+}
+.display_card{
+    height: 400px;
+    width: 300px;
+    border-style: solid;
+}
+
+
+/* FOOTER */
+
+.footer {
+    background-color: #dde0e5;
+    border: 1px solid #000000;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 150px;
+
+}
+
+.brand {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.social_media{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.social_media button {
+    z-index: 10;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+}
+
+.social_network {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/124/124010.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.social_network2 {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.social_network3 {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.summary {
+    width: 400px;
+}
+
+.brand {
+    display: flex;
+}
+
+
+
+
+
+
+
+/* progress bar */
+
+.progress_container {
+    background-color: gray;
+    height: 40px;
+    width: 100vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.step_1 {
+    background-color: pink;
+    width: 40px;
+    height: 40px;
+
+}
+
+.step_2 {
+    background-color: #4CAF50;
+    width: 40px;
+    height: 40px;
+
+}
+
+.step_3 {
+    background-color: yellow;
+    width: 40px;
+    height: 40px;
+
+}
+
+.step_4 {
+    background-color: aqua;
+    width: 40px;
+    height: 40px;
+
+}
