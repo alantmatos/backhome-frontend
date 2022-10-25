@@ -78,9 +78,9 @@ const Navbar = ({ user, setUser }) => {
                     <Link to='/about' className='nav_buttons'> About</Link>
                 </li>
 
-                <li>
+                { user ? <li>
                     <Link to='/profile' className='nav_buttons'> My Pets</Link>
-                </li>
+                </li> : null }
             </ul>
         </div>
 

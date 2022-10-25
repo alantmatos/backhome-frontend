@@ -32,7 +32,6 @@ const Login = ({setUser}) => {
             });
             navigate('/profile')
     }
-    console.log(errors)
 
 
     return ( 
