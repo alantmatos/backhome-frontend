@@ -1,0 +1,9 @@
+/* PET EDIT FORM */
+.edit_pet_container {
+    z-index: 10;
+    background-color: rgba(128, 128, 128, 0.399);
+    border-style: solid;
+    width: 50vw;
+    height: 50vh;
+
+}

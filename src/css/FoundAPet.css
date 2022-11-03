@@ -1,0 +1,117 @@
+
+/* FOUND A DOG
+
+*/
+
+
+.dog_profile_image {
+    width: 100PX;
+    height: 100PX;
+    border-radius: 50%;
+}
+
+
+.found_dog_container {
+    display: flex;
+}
+
+.foundapet_form {
+    height: 80px;
+    width: 250px;
+    border-style: solid;
+    align-content: center;
+
+}
+
+.foundapet_form input {
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+}
+
+.foundapet_btn {
+    background-color: #4CAF50;
+    color: #EEEEEE;
+    border-style: none;
+    height: 25px;
+    margin-left: 80px;
+}
+
+.found_dog_card {
+
+    height: 300px;
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    z-index: 10;
+}
+
+.found_dog_header {
+    display: flex;
+}
+
+.found_dog_header h1 {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.found_dog_card button {
+    background-color: #4CAF50;
+    color: #EEEEEE;
+    border-style: none;
+    width: auto;
+    height: 30px;
+    margin-left: 50px;
+}
+
+.tag_form{
+    width: 250px;
+    height: 150px;
+    align-content: center;
+}
+.safe_tag_form{
+    width: 250px;
+    height: 150px;
+}
+
+.owner_profile_image{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border-style: solid;
+}
+
+
+.display_top_container{
+    justify-content: center;
+
+}
+
+
+.thank_you_msg{
+font-family: monospace;
+font-size: 20px;
+}
+.display{
+    align-items: center;
+    align-content: center;
+}
+
+.display_owner_dog{
+    display: flex;
+}
+
+
+
+.display_container{
+    justify-content: center;
+    
+
+}
+.display_card{
+    height: 400px;
+    width: 300px;
+    border-style: solid;
+}
+

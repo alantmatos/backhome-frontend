@@ -1,0 +1,11 @@
+/* About */
+
+.about{
+    width: 500px;
+    height: 300px;
+}
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,41 @@
+
+/* CREATE AN ACCOUNT */
+
+.sign_up_container {
+    display: flex;
+    position: relative;
+    height: 65vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    font-size: larger;
+    height: 50%;
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+.sign_up_container input {
+    margin: 10px;
+    border: none;
+    border-bottom: 3px solid black;
+}
+
+.form submit {
+
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+}

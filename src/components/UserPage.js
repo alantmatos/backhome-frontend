@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import EditDog from './EditDog';
+import style from '../css/UserPage.css'
 
 const UserPage = ({ user, fetchData, setUser, setReload, reload }) => {
 
@@ -8,7 +9,7 @@ const UserPage = ({ user, fetchData, setUser, setReload, reload }) => {
     const [currentDog, setCurrentDog] = useState('');
 
     let dogArr = [];
-    { user ? user.dogs.map(dog => { return ( dogArr.push(dog))}) : console.log("no user") };
+    { user ? user.dogs.map(dog => { return (dogArr.push(dog)) }) : console.log("no user") };
 
 
     const renderDogInfo = dogArr.map(dog => {
@@ -58,10 +59,10 @@ const UserPage = ({ user, fetchData, setUser, setReload, reload }) => {
 
     return (
         <>
-        <div className='dog_container'>
-            {renderDogInfo}
-            {editPetForm ? <EditDog dog={currentDog} setEditPetForm={setEditPetForm} reload={reload} setReload={setReload}> </EditDog> : null   }
-        </div>
+            <div className='dog_container'>
+                {renderDogInfo}
+                {editPetForm ? <EditDog dog={currentDog} setEditPetForm={setEditPetForm} reload={reload} setReload={setReload}> </EditDog> : null}
+            </div>
         </>
     );
 }

@@ -1,0 +1,49 @@
+
+/* Dog containter */
+
+.dog_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 54vh;
+
+}
+
+.dog_header {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+
+.dog_card {
+    height: 320px;
+    width: 250px;
+    border: 1px solid black;
+    margin: 5px;
+    margin-right: 0;
+    background-color: #dde0e5;
+
+
+}
+
+
+.dog_img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.button_container {
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+
+
+.pet_card_buttons {
+    background-color: #4CAF50;
+    width: 80px;
+    height: 25px;
+}

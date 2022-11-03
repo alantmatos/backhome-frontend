@@ -1,0 +1,50 @@
+
+/* HOME PAGE */
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.home_buttons {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    height: 20px;
+    width: 150px;
+}
+
+.text {
+    font-family: 'Times New Roman', Times, serif;
+    height: 200px;
+    width: 550px;
+    font-size: 25px;
+    font-weight: lighter;
+
+}
+
+.text p {
+    margin-top: 20px;
+}
+
+

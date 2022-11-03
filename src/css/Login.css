@@ -1,0 +1,28 @@
+
+/* Login */
+
+.login_container {
+    display: flex;
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_container input {
+    margin: 10px;
+    border: none;
+    border-bottom: 3px solid black;
+}
+
+.submit {
+    background-color: #000000;
+    color: #EEEEEE;
+}
